@@ -1,0 +1,39 @@
+.entire-faq{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.entire-faq .quesvalue{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+.answerval{
+    display: none;
+    height: auto;
+    width: auto;
+    
+}
+h2{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.show-ques-1,
+.show-ques-2,.show-ques-3,
+.show-ques-4,.show-ques-5,
+.show-ques-6{
+    display: block;
+
+}
+.close{
+    display: none;
+}

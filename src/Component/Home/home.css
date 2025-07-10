@@ -1,0 +1,62 @@
+.entire-home {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.entire-home .welcome p {
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.entire-home .home-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.entire-home .home-info .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entire-home .home-info .image img {
+  height: auto;
+  width: auto;
+}
+.entire-home .home-info .heading {
+  text-align: center;
+  width: 80%;
+}
+.entire-home .para {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.entire-home .home-info .but1 {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  height: auto;
+  width: 40%;
+  padding: 10px;
+}
+.entire-home .home-info .but1 a {
+  text-decoration: none;
+  color: white;
+}
+#quick-contact {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#quick-contact a {
+  text-decoration: none;
+  color: white;
+}

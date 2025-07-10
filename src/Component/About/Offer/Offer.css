@@ -1,0 +1,40 @@
+
+.offer{
+    display: flex;
+    flex-direction:column ;
+
+}
+.offer h1{
+    margin-bottom: 40px;
+}
+.what-we{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.offer .offers{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow:5px 0px 5px rgba(0,0,0,0.3);
+    gap: 30px;
+    
+}
+.offers h1{
+    text-align: center;
+}
+.offers.right{
+    flex-direction: row-reverse;
+} 
+.offers img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+.offers .desclass{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,67 @@
+
+.ourmission{
+    width: 100%;
+    padding: 10px 200px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border-radius: 20px;
+    background-image: url("./AboutImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.ourmission .content{
+    margin-top: 130px;
+}
+  .ourmission h1 {
+    padding-left: 40px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: underline;
+  }
+  .ourmission button {
+    border: 0;
+    outline: 0;
+    width: 250px;
+    height: 40px;
+    padding: 30px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+
+  @media (max-width:768px)
+{
+.ourmission{
+  height: auto;
+  padding: 10px 10px;
+  width: 90%;
+  margin: auto;
+
+}
+.ourmission .content{
+    margin-top: 50px;
+}
+.ourmission h1 {
+    font-size:25px;
+  }
+
+   .ourmission button {
+    
+    margin-top: 10px;
+    margin-left: auto;
+        margin-right: auto;
+
+  }
+}

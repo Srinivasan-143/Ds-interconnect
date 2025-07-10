@@ -1,0 +1,33 @@
+.courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.courses h1 {
+  margin-bottom: 20px;
+}
+.All-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.courses .All-courses .course {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 290px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 3px 1px 1px 1px #615e5e;
+}
+.courses .course img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
