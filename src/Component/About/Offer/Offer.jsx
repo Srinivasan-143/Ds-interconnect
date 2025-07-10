@@ -1,5 +1,5 @@
 import React from 'react'
-import { assests, offer } from '../../../assets/assests'
+import { assests, offer } from '../../../../assets/assests'
 import "./Offer.css"
 
 const Offer = () => {

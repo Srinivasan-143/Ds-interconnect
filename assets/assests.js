@@ -1,15 +1,15 @@
-import Trone from "../assets/Trone1.jpg";
-import Ics from "../assets/backgroundpic.jpg";
-import menu_icon from "../assets/menu_icon.png";
-import cross_icon from "../assets/cross_icon.png";
-import PCB from "../assets/Pcb_Desinging.jpg";
-import Telemtry from "../assets/Telemetry.jpg";
-import Project from "../assets/Projects.jpg"
-import RDProject from "../assets/RD_Projects.jpg";
-import InterShip from "../assets/InterShip.jpg";
-import MiniProject from "../assets/MiniProject.jpg";
-import Seminar from "../assets/Seminar.jpg";
-import Webinar from "../assets/Webinar.jpg";
+import Trone from "./Trone1.jpg";
+import Ics from "./backgroundpic.jpg";
+import menu_icon from "./menu_icon.png";
+import cross_icon from "./cross_icon.png";
+import PCB from "./Pcb_Desinging.jpg";
+import Telemtry from "./Telemetry.jpg";
+import Project from "./Projects.jpg"
+import RDProject from "./RD_Projects.jpg";
+import InterShip from "./InterShip.jpg";
+import MiniProject from "./MiniProject.jpg";
+import Seminar from "./Seminar.jpg";
+import Webinar from "./Webinar.jpg";
 
 
 
